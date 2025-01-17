@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest  # Run on Ubuntu
 
     steps:
-      - run: "curl --location --fail-early --request POST https://release-ee-mongo.appsmith.com/api/v1/git/deploy/app/678a55fb4633ec1e993f0952?branchName=release --header 'Authorization: Bearer ${{ secrets.APPSMITH_CD_KEY }} '"
+      - run: "curl --location --fail-early --request POST https://release-ee-mongo.appsmith.com/api/v1/git/deploy/app/678a55254633ec1e993f091c?branchName=release --header 'Authorization: Bearer ${{ secrets.APPSMITH_CD_KEY }} '"
