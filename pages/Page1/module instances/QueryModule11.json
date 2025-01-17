@@ -7,12 +7,20 @@
   "unpublishedModuleInstance": {
     "contextType": "PAGE",
     "inputs": {
+      "kamakshia1": "",
       "limit": "2",
       "ll": "",
       "offset": "2",
       "test": ""
     },
     "moduleInputs": {
+      "glprbbzcak": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "glprbbzcak",
+        "label": "kamakshia1",
+        "propertyName": "inputs.kamakshia1"
+      },
       "hpcmymmrnr": {
         "controlType": "INPUT_TEXT",
         "defaultValue": "",
